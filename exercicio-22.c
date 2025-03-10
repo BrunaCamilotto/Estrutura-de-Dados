@@ -14,15 +14,13 @@ int main(){
 
       printf("Digite proximo valor: \n Ou digite 0 para terminar e calcular.");
       scanf("%d", &numero);
-
-      soma += numero;
-      contador++;
    }
 
-      media = (float)soma / contador;
+      media = soma / contador;
 
-      printf("Soma: %d\n, soma");
-      printf("Media: %.2f\n, media");
+      printf("Soma:%d\n", soma);
+      printf("Media:%.2f\n", media);
+      printf("Quantos numeros foram colocados:%d", contador);
 
       return 0;
 }
