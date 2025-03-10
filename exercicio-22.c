@@ -12,7 +12,7 @@ int main(){
 
       soma = soma + numero;
 
-      printf("Digite proximo valor: \n Ou digite 0 para terminar e calcular.");
+      printf("Digite proximo valor.\nOu digite 0 para terminar e calcular: ");
       scanf("%d", &numero);
    }
 
