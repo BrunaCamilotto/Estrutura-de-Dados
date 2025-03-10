@@ -8,14 +8,12 @@ int main(){
    scanf("%d", &numero);
 
    while (numero != 0) {
-      contador = contador + 1;
-
+      contador++;
       soma = soma + numero;
 
       printf("Digite proximo valor.\nOu digite 0 para terminar e calcular: ");
       scanf("%d", &numero);
    }
-
       media = soma / contador;
 
       printf("Soma:%d\n", soma);
