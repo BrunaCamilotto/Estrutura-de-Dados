@@ -11,7 +11,7 @@ int ehBissexto(int ano) {
 int main() {
     int ano;
 
-    printf("Digite um ano: ");
+    printf("5 - Digite um ano: ");
     scanf("%d", &ano);
 
     if (ehBissexto(ano)) {

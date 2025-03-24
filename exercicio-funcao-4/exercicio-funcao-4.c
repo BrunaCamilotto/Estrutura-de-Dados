@@ -11,7 +11,7 @@ int saoMultiplos(int a, int b) {
 int main() {
     int a, b;
 
-    printf("Digite dois valores separados por uma unica barra de espaco: ");
+    printf("4 - Digite dois valores separados por uma unica barra de espaco: ");
     scanf("%d %d", &a, &b);
 
     if (saoMultiplos(a, b)) {

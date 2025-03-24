@@ -15,7 +15,7 @@ int main(){
     float diametro;
     float raio;
 
-    printf("informe um valor para o diametro da bola(raio x 2): ");
+    printf("1 - Informe um valor para o diametro da bola(raio x 2): ");
     scanf("%f", &diametro);
 
     raio = diametro / 2.0;

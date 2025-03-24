@@ -11,7 +11,7 @@ int calcularFatorial(int n) {
 int main() {
     int numero;
 
-    printf("Digite um numero: ");
+    printf("7 - Digite um numero: ");
     scanf("%d", &numero);
 
     printf("O fatorial de %d eh %d\n", numero, calcularFatorial(numero));

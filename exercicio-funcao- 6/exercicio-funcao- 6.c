@@ -32,10 +32,10 @@ int main() {
     float salarioBruto, inss, irpf, salarioLiquido;
     int dependentes;
 
-    printf("Digite o salario bruto: ");
+    printf("6 - Digite o salario bruto: ");
     scanf("%f", &salarioBruto);
 
-    printf("Digite o numero de dependentes: ");
+    printf("6 - Digite o numero de dependentes: ");
     scanf("%d", &dependentes);
 
     inss = calcularINSS(salarioBruto);
