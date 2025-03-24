@@ -10,7 +10,7 @@ double maiorValor(double x, double y) {
 int main() {
     double x, y;
 
-    printf("Digite dois valores (X e Y): ");
+    printf("Digite dois valores separados por espaco (X e Y): ");
     scanf("%lf %lf", &x, &y);
 
     printf("O maior valor eh: %.2f\n", maiorValor(x, y));
